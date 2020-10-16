@@ -21,6 +21,11 @@ body {
 }
 .link-brown-light {
   color: #847a7d;
+  cursor: pointer;
+}
+.link-brown-light:hover {
+  color: #d99578;
+  cursor: pointer;
 }
 .contenair-header {
   display: flex;
@@ -248,9 +253,7 @@ ul {
     display: block;
     width: auto;
   }
-  .toggle {
-    display: none;
-  }
+
   .logo {
     order: 0;
   }

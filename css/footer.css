@@ -23,7 +23,14 @@ footer {
 
   padding: 1.25rem;
 }
-
+.link-social {
+  color: #847a7d;
+  cursor: pointer;
+}
+.link-social:hover {
+  color: #d99578;
+  cursor: pointer;
+}
 .input {
   display: flex;
   align-items: center;

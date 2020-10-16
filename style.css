@@ -27,6 +27,91 @@
   font-size: 0.7rem;
   padding: 10px 25px 10px 25px;
 }
+/* Modifier  couleur btn*/
+.btn--orange {
+  border-color: #d99578;
+  color: white;
+  background-color: #d99578;
+}
+/* Modifier */
+.btn--brown {
+  border-color: #393738;
+  color: white;
+  background-color: #393738;
+}
+/*class des H2*/
+.titreh2 {
+  font-family: "prada";
+  font-size: 2rem;
+  font-weight: 100;
+}
+.titreh2--black {
+  color: rgb(48, 46, 47);
+}
+.titreh2--white {
+  color: rgb(255, 255, 255);
+}
+.titreh2--orange {
+  color: #d99578;
+}
+
+/*class des H3*/
+.titreh3 {
+  font-family: "prada";
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.titreh3--black {
+  color: rgb(48, 46, 47);
+}
+.titreh3--white {
+  color: rgb(255, 255, 255);
+}
+.titreh3--orange {
+  color: #d99578;
+}
+/*class des H4*/
+.titreh4 {
+  font-family: "muli";
+  font-size: 1rem;
+  font-weight: 100;
+}
+.titreh4--black {
+  color: rgb(48, 46, 47);
+}
+.titreh4--white {
+  color: rgb(255, 255, 255);
+}
+.titreh4 {
+  font-family: "muli";
+  font-size: 0.8rem;
+  color: rgb(48, 46, 47);
+  text-decoration-line: overline;
+  text-decoration-color: #d99578;
+}
+.titreh5 {
+  font-family: "muli";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: rgb(87, 87, 87);
+}
+/*class des paragraphes*/
+.paragraphetext {
+  font-family: "muli";
+  font-size: 0.8rem;
+}
+.paragraphetext--black {
+  color: rgb(48, 46, 47);
+}
+.paragraphetext--white {
+  color: rgb(255, 255, 255);
+}
+.paragraphetext--orange {
+  color: #d99578;
+}
+.paragraphetext--gris {
+  color: #a4a2a7;
+}
 
 /*bloc history*/
 .history {
@@ -247,7 +332,7 @@ p {
   }
 }
 
-/* text over image */
+/* text over image  galerie*/
 
 .tile {
   position: relative;
@@ -268,7 +353,11 @@ p {
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
-
+.more {
+  position: relative;
+  top: 10px;
+  width: 100px;
+}
 /*section slide*/
 #muli {
   font-family: "muli";
