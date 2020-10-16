@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musem of Egypt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="contenair-header">
+        <!-- Rachida Menu hamburger et réseaux. -->
+        <div class="line-one">
+          <span class="visit">
+            <i class="far fa-clock link-orange"></i
+            ><a class="text-header">Plan your visit today: 9 00 7 30</a>
+
+            <i class="far fa-map link-orange"> </i
+            ><a class="text-header">Get direction</a></span
+          >
+
+          <div class="social-media">
+            <i class="fab fa-facebook-f link-brown-light"></i>
+            <i class="fab fa-twitter link-brown-light"></i>
+            <i class="fab fa-instagram link-brown-light"></i>
+            <i class="fab fa-youtube link-brown-light"></i>
+            <div class="search">
+              <input
+                class="search-txt"
+                type="text"
+                name=""
+                placeholder="Type to search"
+              />
+              <a class="search-btn" href="#">
+                <i class="fas fa-search search-i link-brown-ligh"></i>
+              </a>
+            </div>
+            <form>
+              <select class="search" name="lang" size="1">
+                <option>En</option>
+                <option>Fr</option>
+              </select>
+            </form>
+            <a href="#" class="btn btn--orange">
+              <span class="btn__text">Tickets</span>
+            </a>
+          </div>
+        </div>
+        <div class="line-two">
+          <span class="logo">
+            <a class="nav" href="#"><img src="images/light-logo.png"</a>
+          </span>
+          <nav>
+            <ul class="menu">
+              <li class="item"><a class="nav" href="#">Home</a></li>
+              <li class="item"><a class="nav" href="about.html">The museum</a></li>
+              <li class="item"><a class="nav" href="contact.html">visit</a></li>
+              <li class="item"><a class="nav" href="events.html">What's on</a></li>
+              <li class="item"><a class="nav" href="#">Collection</a></li>
+              <li class="item"><a class="nav" href="#">Page</a></li>
+
+              <li class="item"><i class="fas fa-shopping-cart nav"></i></li>
+              <li class="toggle"><span class="bars"></span></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section>
+      <!-- Bastien Slide 3 images -->
+      <div class="section">
+          <h2>Events</h2>
+          <div class="container">
+            
+            </div>
+      </div>
+    </section>
+    <section>
+      <!-- Cédric Images superposé et textes -->
+      <div></div>
+    </section>
+    <section>
+      <!-- Bastien exhibitions sur fond gris -->
+    </section>
+    <section>
+      <!-- Cédric event -->
+    </section>
+    <section>
+      <!-- Rachida vidéo  -->
+    </section>
+    <section>
+      <!-- Rachida galerie -->
+      
+    </section>
+
+    <section>
+      <!-- Icone fond gris A définir .... -->
+    </section>
+    <section>
+      <!-- Cédric Testimonioal -->
+    </section>
+    <section>
+      <!-- Bastien section blog Latest from our blog -->
+    </section>
+    <footer>
+      <!-- A définir -->
+      <div class="footer-wrap">
+      <div>
+          <img src="images/footer-logo-1-1.png" alt="logo">
+        <form
+          class="form-footer"
+          action="#"
+          method="post"
+          autocomplete="on"
+          name="sign up for beta form"
+        >
+          
+          <article class="input">
+            <!--pattern pour tester l'ecriture de l'email  -->
+            <input type="email" class="button" id="email" name="email" required
+            pattern="[^@]+@[^\.]+\..+ placeholder=" example@example.com">
+
+            <button type="submit" class="button" id="submit">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+         
+        </form>
+      </div>
+
+      
+    </div>
+    <div class="social-media-footer">
+        <i class="fab fa-facebook-f link-brown-light"></i>
+        <i class="fab fa-twitter link-brown-light"></i>
+        <i class="fab fa-instagram link-brown-light"></i>
+        <i class="fab fa-youtube link-brown-light"></i>
+      
+      </div>
+      <span class="text-footer">Copyrights © 2019 <span class="link-orange" >Egypt</span>, All Rights Reserved</span>
+    </footer>
+  </body>
+</html>
