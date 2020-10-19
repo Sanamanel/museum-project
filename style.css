@@ -7,7 +7,7 @@
 /*class des H2*/
 .titreh2 {
   font-family: "prada";
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 100;
 }
 .titreh2--black {
@@ -19,7 +19,10 @@
  .titreh2--orange {
   color: #d99578;;
  }
-
+ .titreh2--big {
+  font-size: 2.7rem;
+  font-weight: 200;
+}
 /*class des H3*/
  .titreh3 {
   font-family: "prada";
@@ -34,6 +37,9 @@
  }
  .titreh3--orange {
   color: #d99578;
+ }
+ .titreh3--grey {
+   color:  #847e7d;
  }
  .titreh4 {
   font-size: 0.8rem;
@@ -184,16 +190,17 @@ p {
 
 /*EVENT*/
 /*font coloré*/
+
 .events {
-  margin-right: auto;
-  margin-left: auto;
   background-color: #f3ebe7;
-  width: 1920px;
+  width: 100vw;
+  max-width: 100%;
   height: 924px;
 }
+
 /*Partie de gauche*/
 .events--text {
-  width: 960px;
+  width: 50vw;
   height: 924px;
   background-image: url(images/event-bg-1-1.jpg);
 }
@@ -201,7 +208,7 @@ p {
   display: block;
   position: relative;
   top: 200px;
-  left: 390px;
+  left: 160px;
 }
 .events--events {
   border-top: 2px solid #d99578;
@@ -226,7 +233,7 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   display: block;
-  width: 330px;
+  width: 290px;
   height: 50px;
   margin-bottom: 10px;
 }
@@ -254,7 +261,7 @@ p {
   padding-top: 60px;
   position: relative;
   bottom: 290px;
-  left: 875px;
+  left: 555px;
 }
 .events__horaire {
   font-size: 1rem;
@@ -269,7 +276,7 @@ p {
   padding-right: 10px;
   display: flex;
   position: relative;
-  left: 903px;
+  left: 583px;
   bottom: 297px;
 }
 .events__horaire2 {
@@ -285,7 +292,7 @@ p {
   padding-right: 10px;
   display: flex;
   position: relative;
-  left: 903px;
+  left: 583px;
   bottom:297px;
 }
 .events__horaire3 {
@@ -301,7 +308,7 @@ p {
   padding-right: 10px;
   display: flex;
   position: relative;
-  left: 903px;
+  left: 583px;
   bottom:297px;
 }
 .events__horloge {
@@ -310,7 +317,7 @@ p {
   border-radius: 20px;
   display: flex;
   position: relative;
-  left: 950px;
+  left: 630px;
   bottom:330px ;
 }
 .events__horloge2 {
@@ -319,7 +326,7 @@ p {
   border-radius: 20px;
   display: flex;
   position: relative;
-  left: 950px;
+  left: 630px;
   bottom:330px ;
 }
 .events__horloge3 {
@@ -328,7 +335,7 @@ p {
   border-radius: 20px;
   display: flex;
   position: relative;
-  left: 950px;
+  left: 630px;
   bottom:330px ;
 }
 /*partie texte de droite*/
@@ -342,28 +349,28 @@ p {
   flex-direction: column;
   position: relative;
   bottom: 1050px;
-  left: 1100px;
+  left: 760px;
 }
 .events__textd2 {
   display: flex;
   flex-direction: column;
   position: relative;
   bottom: 960px;
-  left: 1100px;
+  left:760px;
 }
 .events__textd3 {
   display: flex;
   flex-direction: column;
   position: relative;
   bottom: 865px;
-  left: 1100px;
+  left:760px;
 }
 .events__date, .events__date2, .events__date3 {
   display: flex;
   float: left;
 }
 .events__chiffre24, .events__chiffre06, .events__chiffre242 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: #d89578;
   padding-right: 20px;
 }
@@ -371,7 +378,7 @@ p {
   text-transform: uppercase;
   color: #847e7d;
   font-family: prada;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -382,9 +389,12 @@ p {
 .events__more, .events__more2, .events__more3 {
   text-decoration: none;
   color: black;
-  padding-top: 10px;
+  padding-top: 20px;
   text-transform: uppercase;
-
+  font-size: 0.7rem;
+}
+.events__plusg {
+  padding-right: 10px;
 }
 
 /*bloc texte de droite Vidéo Cédric*/
