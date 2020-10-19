@@ -183,14 +183,26 @@ p {
 }
 
 /*EVENT*/
+/*font coloré*/
 .events {
-  width: auto;
-  height: auto;
-  padding-top: 130px;
-  padding-bottom: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f3ebe7;
+  width: 1920px;
+  height: 924px;
 }
-
-/*bloc text gauche*/
+/*Partie de gauche*/
+.events--text {
+  width: 960px;
+  height: 924px;
+  background-image: url(images/event-bg-1-1.jpg);
+}
+.events__position {
+  display: block;
+  position: relative;
+  top: 200px;
+  left: 390px;
+}
 .events--events {
   border-top: 2px solid #d99578;
   width: 55px;
@@ -202,38 +214,242 @@ p {
 .events--titre {
   font-size: 3rem;
   font-family: prata;
-  padding-bottom: 30px;
 }
-.events--video {
-  width: 40%;
-  height: 40%;
+.btn--events {
+  text-decoration: none;
+  background-color: white; 
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  font-size: 0.8rem;
+  padding-left: 11px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  width: 330px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.btn--events:hover {
+  background-color: #d89578;
+  color: #ffffff;
+}
+.events--liens {
+  display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
-  padding-bottom: 100px;
-
+  top: 60px;
 }
-
-/*bloc texte de droite Vidéo*/
-
-.video--text {
+.events__upcoming .events--upcoming{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: prata;
   display: flex;
-  background-image: url(images/video-bg-1-1.jpg);
+  position: relative;
+  top: 130px;
+  font-size: 0.7rem;
+  color: black;
 }
-.events--video{
+.events--photos {
+  display: block;
+  padding-top: 60px;
+  position: relative;
+  bottom: 290px;
+  left: 875px;
+}
+.events__horaire {
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  color: #d89578;
+  width: 115px;
+  height: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  position: relative;
+  left: 903px;
+  bottom: 297px;
+}
+.events__horaire2 {
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  color: #d89578;
+  width: 115px;
+  height: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  position: relative;
+  left: 903px;
+  bottom:297px;
+}
+.events__horaire3 {
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  color: #d89578;
+  width: 115px;
+  height: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  position: relative;
+  left: 903px;
+  bottom:297px;
+}
+.events__horloge {
+  background-color: white;
+  padding:5px ;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  left: 950px;
+  bottom:330px ;
+}
+.events__horloge2 {
+  background-color: white;
+  padding:5px ;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  left: 950px;
+  bottom:330px ;
+}
+.events__horloge3 {
+  background-color: white;
+  padding:5px ;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  left: 950px;
+  bottom:330px ;
+}
+/*partie texte de droite*/
+.events__droite {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.events__textd1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 1050px;
+  left: 1100px;
+}
+.events__textd2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 960px;
+  left: 1100px;
+}
+.events__textd3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 865px;
+  left: 1100px;
+}
+.events__date, .events__date2, .events__date3 {
+  display: flex;
+  float: left;
+}
+.events__chiffre24, .events__chiffre06, .events__chiffre242 {
+  font-size: 4.5rem;
+  color: #d89578;
+  padding-right: 20px;
+}
+.events__thu, .events__wed, .events__sat {
+  text-transform: uppercase;
+  color: #847e7d;
+  font-family: prada;
+  font-size: 1.7rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.events__texte11, .events__texte21, .events__texte31 {
+  padding-top: 15px;
+  text-transform: lowercase;
+}
+.events__more, .events__more2, .events__more3 {
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  text-transform: uppercase;
+
+}
+
+/*bloc texte de droite Vidéo Cédric*/
+.video--video {
+  width: 45%;
+  height: 45%;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  padding-bottom: 300px;
+  display: flex;
+}
+
+.video {
+  width: 1920px;
+  height: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+  background: linear-gradient(to right,transparent 1%, #c3876d),url("images/video-bg-1-1.jpg");
+}
+.video__gauche {
+  position: relative;
+}
+.video--text {
   display: flex;
 }
 .video--titre {
   font-size: 3rem;
   display: flex;
   flex-direction: column;
-  padding-left: 100px;
-  padding-top: 50px;
+  position: relative;
+  top: 90px;
+  left: 200px;
   font-family: muli;
   color: white;
 }
-
-
+.video--stitre {
+  position: relative;
+  top: 15px;
+}
+.box__imagev {
+  position: relative;
+  top: 10px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+.box--btn {
+  text-decoration: none;
+  background-color: white;
+  vertical-align: middle;
+  color: black;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding-left: 110px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  top: 70px;
+}
+.video--liste {
+  padding-top: 20px;
+ 
+}
 .video--liste .video__stitre {
   line-height: 20px;
   font-size: 1.2rem;
