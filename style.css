@@ -441,7 +441,7 @@ p {
 .caroussel__div1 {
   width: 25%;
   height: 10px;
-  border-bottom: rgb(223, 222, 222) 1px solid;
+  border-bottom: rgb(112, 112, 112) 1px solid;
   justify-content: center;
 }
 .caroussel__div2 {
@@ -456,7 +456,7 @@ p {
 .caroussel__div3 {
   width: 25%;
   height: 10px;
-  border-bottom: rgb(185, 185, 185) 1px solid;
+  border-bottom: rgb(112, 112, 112) 1px solid;
   align-items: center;
   justify-content: right;
 }
