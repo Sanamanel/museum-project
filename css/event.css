@@ -38,7 +38,7 @@
   background-color: #393738;
 }
 .bande {
-  background-image: url(/images/inner-banner-bg-1-1.jpg);
+  background-image: url("../images/inner-banner-bg-1-1.jpg");
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -101,7 +101,7 @@
   color: gray;
   font-size: 1.1em;
 
-  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png")
     no-repeat right white;
   background-size: 6px;
   background-position-x: 12em;
@@ -195,7 +195,7 @@
 }
 
 .contenu__boximage1 {
-  background-image: url(/images/event-4-1.jpg);
+  background-image: url("../images/event-4-1.jpg");
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -214,7 +214,7 @@
 }
 
 .contenu__boximage2 {
-  background-image: url(/images/event-4-2.jpg);
+  background-image: url("../images/event-4-2.jpg");
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -233,7 +233,7 @@
 }
 
 .contenu__boximage3 {
-  background-image: url(/images/event-4-3.jpg);
+  background-image: url("../images/event-4-3.jpg");
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -252,7 +252,7 @@
 }
 
 .contenu__boximage4 {
-  background-image: url(/images/event-4-4.jpg);
+  background-image: url("../images/event-4-4.jpg");
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -271,7 +271,7 @@
 }
 
 .contenu__boximage5 {
-  background-image: url(/images/event-4-5.jpg);
+  background-image: url("../images/event-4-5.jpg");
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -290,7 +290,7 @@
 }
 
 .contenu__boximage6 {
-  background-image: url(/images/event-4-6.jpg);
+  background-image: url("../images/event-4-6.jpg");
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
