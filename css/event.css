@@ -2,7 +2,41 @@
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
-
+/* Block Bouton */
+.btn {
+  text-decoration: none;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 9px 5px;
+}
+/* Element  btn*/
+.btn__text {
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0;
+  font-family: "Muli ExtraLight", sans-serif;
+}
+/* Modifier taille */
+.btn--big {
+  font-size: 0.7rem;
+  padding: 10px 25px 10px 25px;
+}
+/* Modifier  couleur btn*/
+.btn--orange {
+  border-color: #d99578;
+  color: white;
+  background-color: #d99578;
+}
+/* Modifier */
+.btn--brown {
+  border-color: #393738;
+  color: white;
+  background-color: #393738;
+}
 .bande {
   background-image: url(/images/inner-banner-bg-1-1.jpg);
   height: 300px;
