@@ -70,17 +70,17 @@
   color: #4e4e4e;
 }
 .space {
-  padding-top: 1.3rem;
-  padding-left: 1rem;
-  padding-bottom: 1.3rem;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
 .space-top-bottom {
-  padding-top: 1.3rem;
+  padding-top: 20px;
 
-  padding-bottom: 1.3rem;
+  padding-bottom: 20px;
 }
 .space-bottom {
-  padding-bottom: 1.3rem;
+  padding-bottom: 20px;
 }
 /*class des paragraphes*/
 .paragraphetext {
@@ -155,6 +155,7 @@
   height: 300px;
   width: 100%;
   display: flex;
+
   justify-content: center;
   align-items: center;
   position: relative;
@@ -188,7 +189,7 @@
 .wrapper {
   margin-left: 140px;
   margin-right: 140px;
-  padding: 1rem;
+  padding: 1em;
 }
 
 .titre-about {
@@ -245,7 +246,7 @@
   .titre-about {
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 400px;
     text-align: center;
     padding-left: 50px;
     justify-content: center;
@@ -441,15 +442,13 @@
 
 #conteneur-3column-about {
   /*Flex with 3 columns*/
-
-  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 
   align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 100%;
 }
+
 #conteneur-3column-about ul {
   list-style: square;
   color: #7f7d82;
@@ -475,18 +474,27 @@
   left: 78%;
   bottom: 59%;
 }
-@media screen and (min-width: 800px) {
-  .element-1 {
-    flex: 1;
-  }
-  .element-2 {
-    flex: 1;
-  }
-  .element-3 {
-    flex: 1;
-  }
+
+/* Create two equal columns that floats next to each other */
+.element-1 {
+  float: left;
+  width: 33%%;
+}
+.element-2 {
+  float: left;
+  width: 33%%;
+}
+.element-3 {
+  float: left;
+  width: 34%%;
 }
 
+/* Clear floats after the columns */
+#conteneur-3column-about:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .element-1 {
