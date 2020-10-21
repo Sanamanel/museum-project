@@ -177,35 +177,35 @@ p {
   padding-top: 15px;
   width: 140px;
   height: 50px;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
 }
 .menu2 {
   text-align: center;
   padding-top: 15px;
   width: 140px;
   height: 50px;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
 }
 .menu3 {
   text-align: center;
   padding-top: 15px;
   width: 140px;
   height: 50px;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
 }
 .menu4 {
   text-align: center;
   padding-top: 15px;
   width: 140px;
   height: 50px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
 }
 .menu1:hover {
   color: #d99578;
@@ -323,8 +323,6 @@ p {
   padding-right: 7px;
 }
 .details__about {
-  padding-top: 50px;
-  padding-left: 220px;
   width: 790px;
   display: flex;
   float: left;
@@ -468,6 +466,7 @@ p {
 /*contact information*/
 .contact__info {
   width: 250px;
+  height: 250px;
 }
 .info__titre {
   font-family: prata;
@@ -516,4 +515,80 @@ p {
   font-family: muli;
   font-size: 0.9rem;
   text-transform: uppercase;
+}
+.iframe {
+  display: flex;
+  position: relative;
+  left: 290px;
+  bottom: 240px;
+}
+.iframe01 {
+  width: 270px;
+  height: 270px;
+}
+/*submit box*/
+.submitbox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 50px;
+  left: 30px;
+  width: 300px;
+  height: 420px;
+  background-color: #302e2e;
+}
+.submit__text1 {
+  color: white;
+  font-family: prata;
+}
+.submit__email {
+  padding-left: 30px;
+}
+.placeholder {
+  color: #7a7677;
+  background-color: #302e2e;
+}
+.Nchildren {
+  color: #7a7677;
+  padding-left: 30px;
+  padding-top: 15px;
+  height: 80px;
+}
+#child-numb {
+  color: #7a7677;
+}
+#email-book,
+#Name,
+#child-numb,
+#Desc {
+  background-color: #302e2e;
+}
+#skip_Submit {
+  background-color: #d99578;
+  color: white;
+}
+.btn__submit {
+  padding-left: 30px;
+  padding-bottom: 35px;
+}
+.submit__text1 {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.submit__text2 {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+.box__desc {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+/* box wrapper details */
+.wrapper-details {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 220px;
+  height: 1500px;
 }
